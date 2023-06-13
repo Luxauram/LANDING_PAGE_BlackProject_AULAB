@@ -1,35 +1,35 @@
 @media only screen and (max-width: 992px) {
-  .custom-margins-body {
+  .extra-margin {
     margin: 0;
   }
-  .custom-title {
+  .title {
     padding: 0;
     font-size: 9vw;
   }
-  .custom-title-padding {
+  .title-padding {
     padding-left: 0;
     text-align: center;
   }
-  .custom-sub-title {
+  .subtitle {
     font-size: 3vw;
   }
-  .custom-n-card-box {
+  .my-card-box {
     padding: 2vw 5vw 2vw 5vw;
   }
-  .custom-up-number-size {
+  .num-size-sup {
     font-size: 13px;
   }
-  .custom-number-size {
+  .num-size {
     font-size: 20px;
   }
   .arrow-position {
     top: 65%;
   }
-  .custom-section-2 {
+  .section-2 {
     height: 100%;
     margin: 50px 0 50px 0;
   }
-  .custom-middle-section-box {
+  .section-2-box {
     padding: 30px 10% 30px 10%;
   }
   .rocket-padding {
@@ -46,7 +46,7 @@
   .custom-section-3-box {
     padding: 30px 0;
   }
-  .custom-box-section-4 {
+  .section-4-box {
     width: 100%;
     height: 100%;
     padding-bottom: 80px;
@@ -54,11 +54,11 @@
   .custom-section-4-right-txt {
     text-align: end;
   }
-  .custom-button-box-right {
+  .my-button-box-right {
     justify-content: start;
     margin-top: 30px;
   }
-  .custom-button-box-left {
+  .my-button-box-left {
     margin-top: 30px;
   }
   .custom-footer-text {

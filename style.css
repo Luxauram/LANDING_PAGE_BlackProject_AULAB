@@ -17,18 +17,17 @@ body {
   margin: 0;
 }
 
-h1 {
+h1,
+h2,
+h3 {
   font-family: var(--fs);
 }
-/* END Globals and Root ------------------------------------ */
-/
 
-/* Custom Re-Usable Classes Start */
-.custom-10-padding {
+.padding-x {
   padding: 0 10% 0 10%;
 }
 
-.custom-color-blue {
+.myBlue-var {
   color: var(--myBlue);
 }
 
@@ -37,39 +36,38 @@ h1 {
   height: 100vh;
 }
 
-.custom-primary-font {
+.font-orbitron {
   font-family: var(--fs);
 }
 
-.custom-txt-light {
+.text-white {
   color: white;
 }
 
-.custom-txt-blue {
+.text-myBlue {
   color: var(--myBlue) !important;
 }
 
-.custom-txt-grey {
+.text-myGray {
   color: var(--myGray) !important;
 }
 
-.custom-bg-dark {
+.bg-black {
   background-color: black;
 }
 
-.custom-fw-extra-light {
+.fw-lighter {
   font-weight: lighter;
 }
 
-.custom-margins-body {
+.extra-margin {
   margin: 0 50px 0 50px;
 }
 
-.custom-padding-body {
+.extra-padding {
   padding: 50px;
 }
-
-/* Custom Re-usable Classes End */
+/* END Globals and Root ------------------------------------ */
 
 /* Navbar ------------------------------------------------------ */
 .nav-link:hover {
@@ -91,55 +89,44 @@ h1 {
 }
 /* END Navbar ------------------------------------------------------ */
 
-/* Header Start */
-
-/* Header Title Section Start */
-
-.custom-header-bg {
+/* Header -------------------------------------------------- */
+.header-bg {
   height: 100vh;
   background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
-    url('/media/moon.jpg');
+    url('./media/moon.jpg');
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
 }
 
-.custom-title-padding {
+.title-padding {
   padding-left: 40px;
 }
 
-.custom-title {
+.title {
   font-size: 4vw;
 }
 
-.custom-sub-title {
+.subtitle {
   font-size: 1.3vw;
 }
 
-/* Header Title Section End */
-
-/* Header Number Section Start */
-
-.custom-n-card {
+.my-card {
   width: 100%;
   border-bottom: 2px solid var(--myBlue);
 }
 
-.custom-n-card-box {
+.my-card-box {
   padding: 1vw;
 }
 
-.custom-number-size {
+.num-size {
   font-size: 40px;
 }
 
-.custom-up-number-size {
+.num-size-sup {
   font-size: 20px;
 }
-
-/* Header Number Section End */
-
-/* Header Arrow Start */
 
 .arrow-position {
   width: 0;
@@ -148,34 +135,27 @@ h1 {
   top: 80%;
   margin: 0 auto;
 }
-/* Header Arrow End */
+/* END Header -------------------------------------------------- */
 
-/* Header End */
-
-/* Main Section 01 Start */
-
-.custom-section-box-line {
+/* Section-1 ---------------------------------------------------- */
+.section-1-line {
   width: 100%;
   height: 2px;
   background-color: var(--myBlue);
 }
+/* END Section-1 ---------------------------------------------------- */
 
-/* Main Section 01 End */
-
-/* Main Section 02 Start */
-
-.custom-section-2 {
+/* Section-2 ---------------------------------------------------- */
+.section-2 {
   height: 100vh;
 }
 
-.custom-middle-section-box {
+.section-2-box {
   padding: 0 10% 0 10%;
 }
+/* END Section-2 ---------------------------------------------------- */
 
-/* Main Section 02 End */
-
-/* Main Section 03 Start */
-
+/* Section-3 ---------------------------------------------------- */
 .rocket-text {
   display: flex;
   justify-content: space-between;
@@ -196,28 +176,26 @@ h1 {
 .rocket-padding {
   padding: 10%;
 }
+/* END Section-3 ---------------------------------------------------- */
 
-/* Main Section 03 End */
-
-/* Main Section 04 Start */
-
-.custom-box-section-4 {
+/* Section-4 ---------------------------------------------------- */
+.section-4-box {
   width: 47%;
   height: 300px;
   padding: 0 50px;
 }
 
-.custom-button-box-left {
+.my-button-box-left {
   display: flex;
   justify-content: end;
 }
 
-.custom-button-box-right {
+.my-button-box-right {
   display: flex;
   justify-content: end;
 }
 
-.custom-button {
+.my-button {
   padding: 20px 60px;
   background-color: transparent;
   position: relative;
@@ -264,13 +242,13 @@ h1 {
   bottom: 0px;
   right: 0px;
 }
-/* Main Section 04 End */
+/* END Section-4 ---------------------------------------------------- */
 
 /* Footer Section ---------------------------------- */
 .custom-footer {
   height: 100vh;
   background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
-    url('/media/sunrise-1765027_1920.jpg');
+    url('./media/sunrise-1765027_1920.jpg');
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;

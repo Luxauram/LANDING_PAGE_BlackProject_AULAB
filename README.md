@@ -1,4 +1,4 @@
-# AULAB - RED PROJECT
+# AULAB - BLACK PROJECT
 
 I've studied for my very very very first Web Dev experience in Aulab - Italy.
 

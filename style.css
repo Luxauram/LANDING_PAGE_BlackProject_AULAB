@@ -93,7 +93,7 @@ h3 {
 .header-bg {
   height: 100vh;
   background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
-    url('./media/moon.jpg');
+    url('media/hero.jpg');
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -248,7 +248,7 @@ h3 {
 .custom-footer {
   height: 100vh;
   background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
-    url('./media/sunrise-1765027_1920.jpg');
+    url('media/footer.jpg');
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
